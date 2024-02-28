@@ -5,7 +5,7 @@ const LetterTiles = () => {
     <>
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <h1>Page Template</h1>
           </div>
         </div>

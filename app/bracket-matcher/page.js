@@ -30,7 +30,7 @@ const BracketMatcher = () => {
     <>
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <input type="text" value={inputStr} onChange={handleInputChange} placeholder="Enter string with brackets" />
             <button onClick={checkBrackets}>Check Brackets</button>
           </div>
@@ -38,7 +38,7 @@ const BracketMatcher = () => {
       </section>
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <p>Result: {result}</p>
           </div>
         </div>

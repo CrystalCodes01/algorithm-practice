@@ -57,7 +57,7 @@ const QuizApp = () => {
     <>
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <h2>
               {questions[currentQuestionIndex].question}
             </h2>
@@ -67,7 +67,7 @@ const QuizApp = () => {
 
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             {questions[currentQuestionIndex].options.map((option, idx) => (
               <label key={idx}>
                 <input
@@ -91,7 +91,7 @@ const QuizApp = () => {
 
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <div id="feedback" className="mt-1">
               {feedback}
             </div>

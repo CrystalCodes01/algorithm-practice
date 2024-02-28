@@ -12,12 +12,18 @@ const ColorSelector = () => {
 
   return (
     <>
-      <select onChange={handleClick} value={selectColor}>
-      {colors.map((color, idx) => (
-          <option key={idx} value={color}>{color}</option>
-      ))}
-      </select>
-      <p>You have selected: {selectColor}</p>
+      <section className="container">
+        <div className="row">
+          <div className="col">
+            <select onChange={handleClick} value={selectColor}>
+              {colors.map((color, idx) => (
+                <option key={idx} value={color}>{color}</option>
+              ))}
+            </select>
+            <p>You have selected: {selectColor}</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

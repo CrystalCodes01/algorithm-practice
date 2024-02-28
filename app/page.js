@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <ul>
               <li><Link href="/bracket-matcher">Bracket Matcher</Link></li>
               <li><Link href="/color-select">Color Selector</Link></li>

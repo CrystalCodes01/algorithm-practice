@@ -8,7 +8,7 @@ const LiveText = () => {
     <>
       <section className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
             <p>{inputValue}</p>
           </div>
