@@ -17,6 +17,7 @@ const Home = () => {
               <li><Link href="/k-unique-characters">K Unique Characters</Link></li>
               <li><Link href="/weather-dashboard">Weather Dashboard</Link></li>
               <li><Link href="/letter-tiles">Letter Tiles</Link></li>
+              <li><Link href="/context-api">Context API</Link></li>
             </ul>
           </div>
         </div>
